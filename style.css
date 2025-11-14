@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Financial Guide for University Students</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- CUSTOM COLORFUL STYLE -->
+    <style>
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            margin: 0;
+            background: #f2f7ff;
+            color: #333;
+        }
+
+        /* Header */
+        #header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #4f8cff, #925bff);
+            color: white;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        #header img {
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        /* Section Titles */
+        h2 {
+            color: #4f3fff;
+        }
+
+        /* Info sections */
+        section.info-block {
+            padding: 50px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #ffe6f0, #e0f0ff);
+            border-radius: 25px;
+            margin: 40px auto;
+            max-width: 900px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+        }
+
+        section.info-block img {
+            margin-top: 20px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 850px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* Grid for the article thumbnails */
+        #thumbnails {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        #thumbnails article {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+
+        #thumbnails article:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.18);
+        }
+
+        #thumbnails img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        /* Footer */
+        #footer {
+            background: #242424;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <!-- Header -->
+        <header id="header">
+            <h1>Financial Planning for Your University Journey</h1>
+            <p style="font-size: 18px; margin-top: 10px;">
+                <strong>Authors: Isabella Castellanos & Adrian Terceros</strong>
+            </p>
+            
+            <img src="https://share.google/images/HADGwyxAJSjEGJEZO"
+                 alt="Financial Guide" 
+                 width="260">
+
+            <p style="max-width: 700px; margin: 25px auto;">
+                A colorful and complete guide to budgeting, tuition planning, scholarships,
+                and financial success throughout your university life.
+            </p>
+        </header>
+
+        <!-- Info Section 1 -->
+        <section class="info-block">
+            <h2>Why Financial Planning Matters</h2>
+            <p>
+                Financial planning helps students reduce stress, avoid debt, and build smart spending
+                habits. Understanding your expenses and setting academic goals supported by financial
+                stability creates a healthier and more successful university experience.
+            </p>
+
+            <img src="https://fbe.unimelb.edu.au/__data/assets/image/0003/5172249/varieties/banner.jpg">
+        </section>
+
+        <!-- Thumbnail Grid -->
+        <section id="thumbnails">
+
+            <article>
+                <img src="images/thumbs/01.jpg" alt="">
+                <h2>Understanding Tuition Costs</h2>
+                <p>Break down tuition fees, hidden costs, and school-year expectations.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/02.jpg" alt="">
+                <h2>Scholarships & Grants</h2>
+                <p>Learn how to find and apply for scholarships and grants.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/03.jpg" alt="">
+                <h2>Creating a Student Budget</h2>
+                <p>A beginner-friendly method for managing spending efficiently.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/04.jpg" alt="">
+                <h2>Living Expenses & Housing</h2>
+                <p>Dorm vs apartment, transportation, food, utilities, and more.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/05.jpg" alt="">
+                <h2>Textbooks & Materials</h2>
+                <p>How to save money by renting or buying used textbooks.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/06.jpg" alt="">
+                <h2>Financial Aid & Loans</h2>
+                <p>Understand loan types, interest rates, and repayment options.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/07.jpg" alt="">
+                <h2>Part-Time Jobs</h2>
+                <p>Find flexible work opportunities without harming your studies.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/08.jpg" alt="">
+                <h2>Saving & Investing</h2>
+                <p>Simple savings, emergency funds, and beginner investing tips.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/09.jpg" alt="">
+                <h2>Managing Debt</h2>
+                <p>Smart strategies to avoid unnecessary student debt.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/10.jpg" alt="">
+                <h2>Food Budgeting</h2>
+                <p>Affordable meal planning for a healthy lifestyle.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/11.jpg" alt="">
+                <h2>Planning Internships</h2>
+                <p>Understand money needs for paid or unpaid internships.</p>
+            </article>
+
+            <article>
+                <img src="images/thumbs/12.jpg" alt="">
+                <h2>Career Planning</h2>
+                <p>Align your finances with future career and life goals.</p>
+            </article>
+
+            <article>
+                <img src="https://business.fiu.edu/academics/undergraduate/bba-finance/_images/bba-finance-financials.jpg">
+                <h2>Finance Careers</h2>
+                <p>Learn about financial careers and earning potential.</p>
+            </article>
+
+        </section>
+
+        <!-- Info Section 2 -->
+        <section class="info-block">
+            <h2>Build Strong Financial Habits</h2>
+            <p>
+                Every step you take today—from budgeting to saving—builds your
+                financial future. Students who understand their expenses and plan
+                ahead graduate with more confidence and stability.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p>&copy; 2025 Financial Guide | Designed with ❤️ for students</p>
+            <p>Based on HTML5 UP templates</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
